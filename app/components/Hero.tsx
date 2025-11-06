@@ -7,7 +7,7 @@ import { fadeInUp, staggerContainer } from "../utils/animations";
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-orange-50 via-amber-50 to-orange-100 text-gray-900 pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-orange-50 via-amber-50 to-orange-100 text-gray-900 pt-20 pb-20 md:pt-40 md:pb-28 overflow-hidden">
       <div className="absolute inset-0 bg-white/30"></div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -16,25 +16,28 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="inline-flex items-center gap-2 bg-orange-500 text-white px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6 shadow-lg text-center max-w-full"
+            className="inline-flex items-center gap-2 bg-orange-500 text-white px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold mb-8 shadow-lg text-center max-w-full"
           >
             <motion.div
-              animate={{ 
+              animate={{
                 rotate: [0, 10, -10, 10, 0],
-                scale: [1, 1.1, 1.1, 1.1, 1]
+                scale: [1, 1.1, 1.1, 1.1, 1],
               }}
-              transition={{ 
+              transition={{
                 duration: 0.5,
                 repeat: Infinity,
-                repeatDelay: 3
+                repeatDelay: 3,
               }}
             >
               <FaGift className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
             </motion.div>
-            <span className="leading-tight">Hỗ trợ thẻ khi khách hàng dùng hàng tháng lên tới 20% trong dịp cuối năm 2025</span>
+            <span className="leading-tight">
+              Hỗ trợ thẻ khi khách hàng dùng hàng tháng lên tới 20% trong dịp
+              cuối năm 2025
+            </span>
           </motion.div>
         </div>
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-2 md:gap-4 lg:gap-8 items-center">
           {/* Left Column - Content */}
           <motion.div
             variants={staggerContainer}
@@ -45,13 +48,13 @@ export default function Hero() {
             {/* Main Heading */}
             <motion.h1
               variants={fadeInUp}
-              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-gray-800"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight text-gray-800"
             >
               BẠN ĐANG TÌM KIẾM
             </motion.h1>
             <motion.h2
               variants={fadeInUp}
-              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-orange-600"
+              className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 text-orange-600"
             >
               DỊCH VỤ ĐÁO RÚT THẺ TÍN DỤNG
             </motion.h2>
@@ -72,7 +75,7 @@ export default function Hero() {
             {/* CTA Buttons */}
             <motion.div
               variants={fadeInUp}
-              className="flex flex-col sm:flex-row items-center md:items-start gap-4"
+              className="flex flex-col md:flex-row items-center md:items-start gap-4"
             >
               <motion.a
                 href="tel:0869802574"
@@ -87,13 +90,14 @@ export default function Hero() {
                 href="https://zalo.me/0869802574"
                 target="_blank"
                 rel="noopener noreferrer"
-                whileHover={{ scale: 1.05, backgroundColor: '#4ab82c' }}
+                whileHover={{ scale: 1.05, backgroundColor: "#4ab82c" }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 rounded-full text-lg font-bold shadow-lg w-full sm:w-auto flex items-center justify-center gap-2"
                 style={{ backgroundColor: "#5fc53f", color: "white" }}
               >
                 <IoChatbubbles className="w-6 h-6" />
-                Chat Zalo
+                <span className="hidden md:block">Chat</span>
+                <span className="block md:hidden">Zalo</span>
               </motion.a>
             </motion.div>
 
@@ -102,22 +106,23 @@ export default function Hero() {
               variants={fadeInUp}
               className="mt-12 flex flex-wrap items-center justify-center md:justify-start gap-6 text-sm text-gray-700 font-bold"
             >
-              {[
-                "Uy tín hàng đầu",
-                "Chi phí từ 1.2%",
-                "Hỗ trợ 24/7"
-              ].map((text, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.8 + index * 0.1 }}
-                  className="flex items-center gap-2"
-                >
-                  <IoCheckmark className="w-6 h-6" style={{ color: "#5fc53f" }} />
-                  <span>{text}</span>
-                </motion.div>
-              ))}
+              {["Uy tín hàng đầu", "Chi phí từ 1.2%", "Hỗ trợ 24/7"].map(
+                (text, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.8 + index * 0.1 }}
+                    className="flex items-center gap-2"
+                  >
+                    <IoCheckmark
+                      className="w-6 h-6"
+                      style={{ color: "#5fc53f" }}
+                    />
+                    <span>{text}</span>
+                  </motion.div>
+                )
+              )}
             </motion.div>
           </motion.div>
 
@@ -129,13 +134,13 @@ export default function Hero() {
             className="relative order-first md:order-last"
           >
             <motion.div
-              animate={{ 
+              animate={{
                 y: [0, -15, 0],
               }}
               transition={{
                 duration: 3,
                 repeat: Infinity,
-                ease: "easeInOut"
+                ease: "easeInOut",
               }}
               className="relative w-full aspect-square md:aspect-auto"
             >

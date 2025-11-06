@@ -83,7 +83,7 @@ export default function Process() {
                 >
                   <motion.div
                     whileHover={{ y: -10, scale: 1.05 }}
-                    className="bg-gradient-to-br from-orange-50 to-white p-8 px-6 min-h-[280px] rounded-2xl shadow-lg text-center border-2 border-orange-200"
+                    className="bg-gradient-to-br from-orange-50 to-white p-8 px-6 min-h-[300px] rounded-2xl shadow-lg text-center border-2 border-orange-200"
                   >
                     {/* Step Number Badge */}
                     <motion.div
