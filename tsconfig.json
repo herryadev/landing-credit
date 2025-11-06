@@ -19,11 +19,13 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@svg/*": ["./app/assets/svg/*"]
     }
   },
   "include": [
     "next-env.d.ts",
+    "svg.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
