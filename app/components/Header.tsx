@@ -31,12 +31,8 @@ export default function Header() {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="flex items-center"
           >
-            <Link
-              href="/"
-              className="text-2xl font-bold"
-              style={{ color: '#5fc53f' }}
-            >
-              Dịch Vụ Đáo Rút Thẻ
+            <Link href="/">
+              <img src="/images/logo-light.png" alt="Logo" className="w-full h-10" />
             </Link>
           </motion.div>
 
@@ -48,21 +44,20 @@ export default function Header() {
             className="hidden md:flex items-center space-x-8 font-bold"
           >
             {[
-              { href: "#about", label: "Về chúng tôi" },
-              { href: "#services", label: "Dịch vụ" },
-              { href: "#process", label: "Quy trình" },
-              { href: "#contact", label: "Liên hệ" }
+              { href: "/", label: "Trang chủ" },
+              { href: "/rut-tien", label: "Rút tiền" },
+              { href: "/dao-han", label: "Đáo Hạn" },
+              { href: "/kien-thuc", label: "Kiến thức" },
+              { href: "#contact", label: "Liên hệ" },
             ].map((item, index) => (
-              <motion.a
-                key={index}
-                href={item.href}
-                variants={menuItemVariants}
-                whileHover={{ scale: 1.05, color: '#5fc53f' }}
-                transition={{ duration: 0.2 }}
-                className="text-gray-700"
-              >
-                {item.label}
-              </motion.a>
+              <motion.div key={index}>
+                <Link
+                  href={item.href}
+                  className="text-gray-700 hover:text-[#5fc53f] transition-colors"
+                >
+                  {item.label}
+                </Link>
+              </motion.div>
             ))}
           </motion.nav>
 
@@ -74,15 +69,15 @@ export default function Header() {
             className="hidden md:flex items-center"
           >
             <motion.a
-              href="tel:0869802574"
-              whileHover={{ scale: 1.05, backgroundColor: '#4ab82c' }}
+              href="tel:0354064124"
+              whileHover={{ scale: 1.05, backgroundColor: "#4ab82c" }}
               whileTap={{ scale: 0.95 }}
               transition={{ duration: 0.2 }}
-              className="text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2"
-              style={{ backgroundColor: '#5fc53f' }}
+              className="text-white px-6 py-3 rounded-full font-semibold items-center gap-2 lg:flex hidden"
+              style={{ backgroundColor: "#5fc53f" }}
             >
               <IoCall className="w-5 h-5" />
-              086 980 2574
+              035 406 4124
             </motion.a>
           </motion.div>
 
@@ -134,31 +129,31 @@ export default function Header() {
                 className="pb-4 space-y-2"
               >
                 {[
-                  { href: "#about", label: "Về chúng tôi" },
-                  { href: "#services", label: "Dịch vụ" },
-                  { href: "#process", label: "Quy trình" },
-                  { href: "#contact", label: "Liên hệ" }
+                  { href: "/", label: "Trang chủ" },
+                  { href: "/rut-tien", label: "Rút tiền" },
+                  { href: "/dao-han", label: "Đáo Hạn" },
+                  { href: "/kien-thuc", label: "Kiến thức" },
+                  { href: "#contact", label: "Liên hệ" },
                 ].map((item, index) => (
-                  <motion.a
-                    key={index}
-                    href={item.href}
-                    variants={menuItemVariants}
-                    whileTap={{ scale: 0.95 }}
-                    onClick={() => setIsMenuOpen(false)}
-                    className="block py-2 text-gray-700"
-                  >
-                    {item.label}
-                  </motion.a>
+                  <motion.div key={index}>
+                    <Link
+                      href={item.href}
+                      onClick={() => setIsMenuOpen(false)}
+                      className="block py-2 text-gray-700 font-500"
+                    >
+                      {item.label}
+                    </Link>
+                  </motion.div>
                 ))}
                 <motion.a
-                  href="tel:0869802574"
+                  href="tel:0354064124"
                   variants={menuItemVariants}
                   whileTap={{ scale: 0.95 }}
                   className="py-2 font-semibold flex items-center gap-2"
-                  style={{ color: '#5fc53f' }}
+                  style={{ color: "#5fc53f" }}
                 >
                   <IoCall className="w-5 h-5" />
-                  086 980 2574
+                  035 406 4124
                 </motion.a>
               </motion.div>
             </motion.nav>

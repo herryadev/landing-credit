@@ -27,7 +27,7 @@ Trang web đã được xây dựng hoàn chỉnh với đầy đủ các sectio
 
 ### 📱 Thông tin liên hệ đã cấu hình:
 
-- **Hotline**: 086 980 2574
+- **Hotline**: 035 406 4124
 - **Địa chỉ**: Mỹ Đình, Hà Nội
 - **Chi phí**: Từ 1.2%
 - **Hỗ trợ**: 24/7
@@ -63,7 +63,7 @@ pnpm start
 ```
 daothetindung/
 ├── app/
-│   ├── components/
+│   ├── components/          # Shared components
 │   │   ├── Header.tsx       # Menu điều hướng
 │   │   ├── Hero.tsx         # Banner chính
 │   │   ├── About.tsx        # Về chúng tôi
@@ -72,9 +72,19 @@ daothetindung/
 │   │   ├── Stats.tsx        # Thống kê
 │   │   ├── ContactForm.tsx  # Form liên hệ
 │   │   └── Footer.tsx       # Footer
+│   ├── rut-tien/            # 💳 Trang Rút Tiền (MỚI)
+│   │   ├── page.tsx         # Page chính
+│   │   └── components/
+│   │       ├── RutTienHero.tsx      # Hero section
+│   │       ├── WhyUseService.tsx    # Lý do sử dụng
+│   │       ├── Benefits.tsx         # Lợi ích
+│   │       ├── SupportedBanks.tsx   # Ngân hàng
+│   │       └── FAQ.tsx              # Câu hỏi thường gặp
 │   ├── layout.tsx           # Layout chính + SEO
 │   ├── page.tsx             # Trang chủ
 │   └── globals.css          # Global styles
+├── docs/                    # Documentation
+│   └── RUT_TIEN_PAGE.md    # Hướng dẫn trang rút tiền
 ├── public/                  # Static assets
 └── package.json
 ```
@@ -86,7 +96,7 @@ daothetindung/
 ### Thay đổi thông tin liên hệ:
 
 1. Mở file `app/components/Header.tsx`
-2. Tìm và thay `086 980 2574` và `0869802574`
+2. Tìm và thay `035 406 4124` và `0354064124`
 3. Tìm và thay địa chỉ `Mỹ Đình, Hà Nội`
 
 ### Thay đổi màu sắc:
@@ -119,9 +129,24 @@ Mở các file component tương ứng trong `app/components/` và chỉnh nội
 
 ### Floating Buttons (`Footer.tsx`):
 
-- Nút gọi điện: `tel:0869802574`
-- Nút Zalo: `https://zalo.me/0869802574`
+- Nút gọi điện: `tel:0354064124`
+- Nút Zalo: `https://zalo.me/0354064124`
 - Nút scroll to top
+
+---
+
+## ✅ TRANG CON ĐÃ TẠO
+
+### 1. **Trang Rút Tiền** - `/rut-tien`
+- ✅ Hero section với CTA buttons
+- ✅ 3 lý do sử dụng dịch vụ
+- ✅ 4 lợi ích chính với cards gradient
+- ✅ Quy trình 4 bước
+- ✅ 24+ ngân hàng hỗ trợ
+- ✅ FAQ với 8 câu hỏi (accordion)
+- ✅ Form liên hệ
+- ✅ SEO optimized
+- 📄 **Xem chi tiết**: `docs/RUT_TIEN_PAGE.md`
 
 ---
 
@@ -133,7 +158,8 @@ Mở các file component tương ứng trong `app/components/` và chỉnh nội
 
 2. **Thêm trang con**
    - `/about` - Về chúng tôi chi tiết
-   - `/services` - Chi tiết từng dịch vụ
+   - ✅ `/rut-tien` - Chi tiết dịch vụ rút tiền (ĐÃ HOÀN THÀNH)
+   - `/dao-han` - Chi tiết dịch vụ đáo hạn
    - `/contact` - Trang liên hệ riêng
 
 3. **Tính năng bổ sung**
@@ -207,6 +233,6 @@ Website đã hoàn thành với đầy đủ chức năng cơ bản. Bạn có t
 
 ---
 
-📞 Hotline hỗ trợ: **086 980 2574**  
+📞 Hotline hỗ trợ: **035 406 4124**  
 📍 Địa chỉ: **Mỹ Đình, Hà Nội**
 

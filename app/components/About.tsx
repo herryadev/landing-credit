@@ -108,16 +108,16 @@ export default function About() {
           </h3>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <motion.a
-              href="tel:0869802574"
+              href="tel:0354064124"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-orange-500 text-white px-8 py-4 rounded-full text-lg font-bold flex items-center gap-2"
             >
               <IoCall className="w-6 h-6" />
-              086 980 2574
+              035 406 4124
             </motion.a>
             <motion.a
-              href="https://zalo.me/0869802574"
+              href="https://zalo.me/0354064124"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

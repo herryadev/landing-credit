@@ -154,9 +154,9 @@ import { FaCar, FaMoneyBillWave, FaBuilding } from "react-icons/fa";
 
 ### 3. Link với Icon
 ```tsx
-<a href="tel:0869802574" className="flex items-center gap-2 text-blue-600 hover:text-blue-800">
+<a href="tel:0354064124" className="flex items-center gap-2 text-blue-600 hover:text-blue-800">
   <IoCall className="w-5 h-5" />
-  086 980 2574
+  035 406 4124
 </a>
 ```
 
@@ -198,7 +198,7 @@ const steps = [
 ### 6. Floating Action Button
 ```tsx
 <a
-  href="tel:0869802574"
+  href="tel:0354064124"
   className="fixed bottom-6 right-6 bg-blue-700 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center hover:bg-blue-800 animate-bounce"
 >
   <IoCall className="w-6 h-6" />

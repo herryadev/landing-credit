@@ -16,12 +16,11 @@ export default function Footer() {
   ];
 
   const quickLinks = [
-    { name: "Về chúng tôi", href: "#about" },
-    { name: "Rút tiền", href: "#services" },
-    { name: "Đáo hạn", href: "#services" },
-    { name: "Quy trình", href: "#process" },
-    { name: "Ưu điểm", href: "#about" },
-    { name: "Liên hệ", href: "#contact" }
+    { name: "Về chúng tôi", href: "/#about" },
+    { name: "Rút tiền", href: "#" },
+    { name: "Đáo hạn", href: "#" },
+    { name: "Kiến thức", href: "/kien-thuc" },
+    { name: "Liên hệ", href: "/#contact" },
   ];
 
   return (
@@ -51,8 +50,8 @@ export default function Footer() {
                 <IoCall className="w-5 h-5 mt-1" style={{ color: '#5fc53f' }} />
                 <div>
                   <p className="font-semibold">Hotline</p>
-                  <a href="tel:0869802574" className="text-gray-300 hover:text-[#5fc53f] transition">
-                    086 980 2574
+                  <a href="tel:0354064124" className="text-gray-300 hover:text-[#5fc53f] transition">
+                    035 406 4124
                   </a>
                 </div>
               </motion.div>
@@ -63,8 +62,8 @@ export default function Footer() {
                 <IoMail className="w-5 h-5 mt-1" style={{ color: '#5fc53f' }} />
                 <div>
                   <p className="font-semibold">Email</p>
-                  <a href="mailto:contact@daorutthedaotindung.com" className="text-gray-300 hover:text-[#5fc53f] transition">
-                    contact@daorutthedaotindung.com
+                  <a href="mailto:daothehanoinhanh@gmail.com" className="text-gray-300 hover:text-[#5fc53f] transition">
+                    daothehanoinhanh@gmail.com
                   </a>
                 </div>
               </motion.div>
@@ -132,16 +131,16 @@ export default function Footer() {
           </h3>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <motion.a
-              href="tel:0869802574"
+              href="tel:0354064124"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-orange-500 text-white px-8 py-3 rounded-full font-bold flex items-center gap-2"
             >
               <IoCall className="w-5 h-5" />
-              086 980 2574
+              035 406 4124
             </motion.a>
             <motion.a
-              href="https://zalo.me/0869802574"
+              href="https://zalo.me/0354064124"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -159,7 +158,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8 text-center">
           <p className="text-gray-400">
             Copyright 2025 © <span className="font-semibold" style={{ color: '#5fc53f' }}>Dịch Vụ Đáo Rút Thẻ Tín Dụng</span> | 
-            Hotline: <a href="tel:0869802574" className="hover:underline font-bold" style={{ color: '#5fc53f' }}>086 980 2574</a>
+            Hotline: <a href="tel:0354064124" className="hover:underline font-bold" style={{ color: '#5fc53f' }}>035 406 4124</a>
           </p>
           <p className="text-gray-500 text-sm mt-2">
             Thiết kế & Phát triển bởi <span className="text-gray-400">Lynx Solutions</span>
@@ -170,7 +169,7 @@ export default function Footer() {
       {/* Floating Action Buttons */}
       <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-40">
         <motion.a
-          href="tel:0869802574"
+          href="tel:0354064124"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           animate={{
@@ -189,7 +188,7 @@ export default function Footer() {
           <IoCall className="w-6 h-6" />
         </motion.a>
         <motion.a
-          href="https://zalo.me/0869802574"
+          href="https://zalo.me/0354064124"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.1, backgroundColor: '#4ab82c' }}

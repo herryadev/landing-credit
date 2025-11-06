@@ -18,7 +18,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Dịch Vụ Đáo Rút Thẻ Tín Dụng Uy Tín - Chi Phí Từ 1.2% | Mỹ Đình, Hà Nội",
-  description: "Dịch vụ đáo hạn, rút tiền thẻ tín dụng uy tín, an toàn tại Mỹ Đình, Hà Nội. Chi phí cạnh tranh chỉ từ 1.2%. Hỗ trợ tận nơi 24/7. Hotline: 086 980 2574",
+  description: "Dịch vụ đáo hạn, rút tiền thẻ tín dụng uy tín, an toàn tại Mỹ Đình, Hà Nội. Chi phí cạnh tranh chỉ từ 1.2%. Hỗ trợ tận nơi 24/7. Hotline: 035 406 4124",
   keywords: "đáo thẻ tín dụng, rút thẻ tín dụng, đáo hạn thẻ, rút tiền thẻ, Mỹ Đình, Hà Nội",
   authors: [{ name: "Dịch Vụ Đáo Rút Thẻ Tín Dụng" }],
   openGraph: {

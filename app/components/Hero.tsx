@@ -7,7 +7,7 @@ import { fadeInUp, staggerContainer } from "../utils/animations";
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-orange-50 via-amber-50 to-orange-100 text-gray-900 pt-20 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-orange-50 via-amber-50 to-orange-100 text-gray-900 pt-30 pb-20 md:pt-40 md:pb-28 overflow-hidden">
       <div className="absolute inset-0 bg-white/30"></div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -48,13 +48,13 @@ export default function Hero() {
             {/* Main Heading */}
             <motion.h1
               variants={fadeInUp}
-              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight text-gray-800"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 md:mt-0 mt-6 leading-tight text-gray-800"
             >
               BẠN ĐANG TÌM KIẾM
             </motion.h1>
             <motion.h2
               variants={fadeInUp}
-              className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 text-orange-600"
+              className="text-xl md:text-3xl lg:text-4xl font-bold md:mb-0 mb-8 text-orange-600"
             >
               DỊCH VỤ ĐÁO RÚT THẺ TÍN DỤNG
             </motion.h2>
@@ -78,16 +78,16 @@ export default function Hero() {
               className="flex flex-col md:flex-row items-center md:items-start gap-4"
             >
               <motion.a
-                href="tel:0869802574"
+                href="tel:0354064124"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-orange-500 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg w-full sm:w-auto flex items-center justify-center gap-2"
               >
                 <IoCall className="w-6 h-6" />
-                086 980 2574
+                035 406 4124
               </motion.a>
               <motion.a
-                href="https://zalo.me/0869802574"
+                href="https://zalo.me/0354064124"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, backgroundColor: "#4ab82c" }}

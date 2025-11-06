@@ -92,16 +92,16 @@ export default function Services() {
                 </p>
                 <div className="mt-6 flex flex-col gap-2">
                   <motion.a
-                    href="tel:0869802574"
+                    href="tel:0354064124"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="flex items-center justify-center gap-2 bg-orange-500 text-white px-6 py-3 rounded-full font-semibold"
                   >
                     <IoCall className="w-5 h-5" />
-                    086 980 2574
+                    035 406 4124
                   </motion.a>
                   <motion.a
-                    href="https://zalo.me/0869802574"
+                    href="https://zalo.me/0354064124"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05, backgroundColor: '#4ab82c' }}
