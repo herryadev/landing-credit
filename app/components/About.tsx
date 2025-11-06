@@ -20,7 +20,7 @@ export default function About() {
     },
     {
       icon: FaMoneyBillWave,
-      title: "Chi phí rẻ nhất chỉ từ 1.2%",
+      title: "Chi phí rẻ nhất chỉ từ 1.8%",
       description: "Cam kết giá tốt nhất thị trường"
     },
     {

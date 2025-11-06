@@ -11,7 +11,7 @@ export default function WhyUseService() {
     {
       icon: FaPercentage,
       title: "Chi phí thấp hơn ATM",
-      description: "Phí dịch vụ chỉ từ 1.2%, rẻ hơn rất nhiều so với rút tiền trực tiếp tại máy ATM",
+      description: "Phí dịch vụ chỉ từ 1.8%, rẻ hơn rất nhiều so với rút tiền trực tiếp tại máy ATM",
       color: "#f97316"
     },
     {

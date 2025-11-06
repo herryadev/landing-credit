@@ -106,7 +106,7 @@ export default function Hero() {
               variants={fadeInUp}
               className="mt-12 flex flex-wrap items-center justify-center md:justify-start gap-6 text-sm text-gray-700 font-bold"
             >
-              {["Uy tín hàng đầu", "Chi phí từ 1.2%", "Hỗ trợ 24/7"].map(
+              {["Uy tín hàng đầu", "Chi phí từ 1.8%", "Hỗ trợ 24/7"].map(
                 (text, index) => (
                   <motion.div
                     key={index}
@@ -146,11 +146,13 @@ export default function Hero() {
             >
               <Image
                 src="/images/section-1.png"
-                alt="Dịch vụ đáo rút thẻ tín dụng"
+                alt="Dịch vụ đáo rút thẻ tín dụng uy tín tại Hà Nội - Chi phí thấp, hỗ trợ 24/7"
                 width={600}
                 height={600}
                 className="w-full h-auto rounded-2xl shadow-2xl"
                 priority
+                placeholder="blur"
+                blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iI2Y5ZmFmYiIvPjwvc3ZnPg=="
               />
             </motion.div>
           </motion.div>

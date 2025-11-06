@@ -43,7 +43,7 @@ export default function RutTienHero() {
             className="text-xl md:text-2xl text-gray-900 mb-8 max-w-3xl mx-auto"
           >
             Dịch vụ rút tiền mặt từ thẻ tín dụng nhanh chóng, an toàn, 
-            chi phí thấp chỉ từ <span className="font-bold text-orange-400">1.2%</span>
+            chi phí thấp chỉ từ <span className="font-bold text-orange-400">1.8%</span>
           </motion.p>
 
           {/* Features list */}

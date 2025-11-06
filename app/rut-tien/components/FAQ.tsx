@@ -13,7 +13,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "Phí dịch vụ rút tiền thẻ tín dụng là bao nhiêu?",
-      answer: "Phí dịch vụ của chúng tôi chỉ từ 1.2% - thấp nhất thị trường. Chi phí cụ thể phụ thuộc vào số tiền rút và loại thẻ. Bạn có thể liên hệ hotline 035 406 4124 để được tư vấn chi tiết về mức phí phù hợp."
+      answer: "Phí dịch vụ của chúng tôi chỉ từ 1.8% - thấp nhất thị trường. Chi phí cụ thể phụ thuộc vào số tiền rút và loại thẻ. Bạn có thể liên hệ hotline 035 406 4124 để được tư vấn chi tiết về mức phí phù hợp."
     },
     {
       question: "Có thể rút tối đa bao nhiêu tiền từ thẻ tín dụng?",

@@ -35,7 +35,7 @@ app/rut-tien/
 
 ### 2. **WhyUseService** - Lý Do Sử Dụng
 3 lý do chính:
-- **Chi phí thấp hơn ATM** - Phí từ 1.2%
+- **Chi phí thấp hơn ATM** - Phí từ 1.8%
 - **Miễn lãi suất 45 ngày** - Không lãi trong kỳ grace
 - **An toàn & Bảo mật** - Thông tin được bảo mật tuyệt đối
 
@@ -111,7 +111,7 @@ Header Navigation:
 
 ### Metadata đã được cấu hình:
 ```typescript
-title: "Rút Tiền Thẻ Tín Dụng Hà Nội | Phí Thấp 1.2% - Uy Tín 24/7"
+title: "Rút Tiền Thẻ Tín Dụng Hà Nội | Phí Thấp 1.8% - Uy Tín 24/7"
 description: "Dịch vụ rút tiền mặt từ thẻ tín dụng tại Hà Nội..."
 keywords: "rút tiền thẻ tín dụng, rút tiền thẻ tín dụng hà nội..."
 ```
@@ -154,7 +154,7 @@ http://localhost:3000/rut-tien
 ### 1. Hero Section Ấn Tượng
 - Gradient background động
 - Badge "Dịch vụ uy tín #1"
-- Highlight "Chi phí từ 1.2%"
+- Highlight "Chi phí từ 1.8%"
 - 2 CTA buttons nổi bật
 
 ### 2. Thông Tin Chi Tiết

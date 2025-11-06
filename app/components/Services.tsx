@@ -10,7 +10,7 @@ export default function Services() {
     {
       icon: IoCheckmarkCircle,
       title: "DỊCH VỤ MINH BẠCH",
-      description: "Mọi phí đều được quy định rõ ràng. Cạnh tranh từ 1.2%",
+      description: "Mọi phí đều được quy định rõ ràng. Cạnh tranh từ 1.8%",
       details: "Đội ngũ nhân viên là niềm tự hào của chúng tôi. Khách hàng luôn được quan tâm, chăm sóc hỗ trợ khách hàng hiểu hơn về dịch vụ…"
     },
     {

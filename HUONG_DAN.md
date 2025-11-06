@@ -29,7 +29,7 @@ Trang web đã được xây dựng hoàn chỉnh với đầy đủ các sectio
 
 - **Hotline**: 035 406 4124
 - **Địa chỉ**: Mỹ Đình, Hà Nội
-- **Chi phí**: Từ 1.2%
+- **Chi phí**: Từ 1.8%
 - **Hỗ trợ**: 24/7
 
 ---

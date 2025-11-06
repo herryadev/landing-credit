@@ -169,7 +169,7 @@ import { FaCar, FaMoneyBillWave, FaBuilding } from "react-icons/fa";
   </li>
   <li className="flex items-center gap-2">
     <IoCheckmark className="w-5 h-5 text-green-600" />
-    <span>Chi phí từ 1.2%</span>
+    <span>Chi phí từ 1.8%</span>
   </li>
 </ul>
 ```
